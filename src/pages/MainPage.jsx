@@ -16,7 +16,13 @@ const MainPage = () => {
 
   console.log(allCoins);
 
-  return <div>{allCoins && <AllCoinChart coins={allCoins} />}</div>;
+  return (
+    <div>
+      <h1>Charts of crypto coins</h1>
+      <p style={{ fontStyle: "italic" }}>Data from coincap.io</p>
+      {allCoins && <AllCoinChart coins={allCoins} />}
+    </div>
+  );
 };
 
 export default MainPage;
