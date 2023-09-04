@@ -3,6 +3,7 @@ import * as d3 from "d3";
 
 const AllCoinChart = ({ coins }) => {
   const svgRef = useRef();
+  
   const sortedCoins = coins.sort((a, b) => b.priceUsd - a.priceUsd);
   const top10Coins = sortedCoins.slice(0, 10);
   const top4To10Coins = sortedCoins.slice(3, 10);

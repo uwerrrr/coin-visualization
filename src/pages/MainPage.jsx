@@ -9,7 +9,7 @@ const MainPage = () => {
   const [allCoins, setAllCoins] = useState();
   const [requestAllCoins, setRequestAllCoins] = useState(0);
 
-  const selectedCoins = ["bitcoin", "ethereum", "tether"];
+  const selectedCoins = ["bitcoin", "ethereum", "maker"];
   const [coinsPrice, setCoinsPrice] = useState();
   const [requestCoinPrice, setRequestCoinPrice] = useState(0);
 
