@@ -132,7 +132,7 @@ const TimeChart = ({ coinsPrice, makeCoinTimeRequest }) => {
 
   return (
     <div>
-      <h3>Price of last 30 days</h3>
+      <h3>Price of last 30 days of top 3 coins</h3>
       <div>
         <button
           onClick={() => {
