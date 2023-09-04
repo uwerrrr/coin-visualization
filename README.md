@@ -18,6 +18,9 @@ Coin visualization with React and D3. Data is gathered from CoinDesk API.
   - Include a button or toggle to switch between different kinds of charts (eg line and bar chart)
 
 - purpose of project
+
+  - Learning creating visualization frontend using D3 library
+
 - stack used
   - React with Javascript for front end
   - D3 for plotting charts
