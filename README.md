@@ -4,7 +4,7 @@ Coin visualization with React and D3. Data is gathered from CoinDesk API.
 
 ## Demo & Snippets
 
-- You can access the deployed version here: [TBA]
+- You can access the deployed version [here](https://oscar-coin-d3charts.netlify.app)
 
 ---
 
@@ -43,7 +43,7 @@ Coin visualization with React and D3. Data is gathered from CoinDesk API.
     - Bar chart with options showing top 10; top 3; top 4-10 coins
   - Section 2:
     - Price of last 30 days of 3 coins: bitcoin, ethereum and tether.
-    - Line chart with options showing all 3 coins or each individual coin (developing).
+    - Line chart with options showing all 3 coins or each individual coin.
     - An option for user to toggle between line chart and histogram (developing).
 
 ---
