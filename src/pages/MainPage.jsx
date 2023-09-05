@@ -27,7 +27,7 @@ const MainPage = () => {
       const updatedCoinsPrice = {};
       for (let i = 0; i < selectedCoins.length; i++) {
         try {
-          const coinPrice = await getCoinPrices(selectedCoins[i]);
+          const coinPrice = await getCoinPrices(selectedCoins[i].toLowerCase());
           updatedCoinsPrice[selectedCoins[i]] = coinPrice;
           setLoading(false);
         } catch (err) {
