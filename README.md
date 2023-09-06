@@ -24,7 +24,7 @@ Coin visualization with React and D3. Data is gathered from CoinCap API.
 - Stack used
   - React with Javascript for front end
   - D3 for plotting charts
-  - CoinDesk API for getting coin price data
+  - CoinCap API for getting coin price data
 
 ---
 
