@@ -1,6 +1,6 @@
 # Coin visualization
 
-Coin visualization with React and D3. Data is gathered from CoinDesk API.
+Coin visualization with React and D3. Data is gathered from CoinCap API.
 
 ## Demo & Snippets
 
@@ -30,7 +30,7 @@ Coin visualization with React and D3. Data is gathered from CoinDesk API.
 
 ## Approach
 
-- CoinDesk API is chosen because it is a free and easy to use API.
+- CoinCap API is chosen because it is a free and easy to use API.
 - There are several visualization library but I want to practice myself with D3. Sample of D3 charts that I learn from is from this [gallery](https://d3-graph-gallery.com/index.html).
 
 ---
